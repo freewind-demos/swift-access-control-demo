@@ -53,7 +53,7 @@ print(publicObj.publicProperty)
 let internalObj = InternalClass()
 print(internalObj.internalProperty)
 
-let fileObj = FilePrivateClass()
+fileprivate let fileObj = FilePrivateClass()
 print(fileObj.fileprivateProperty)
 
 let privateObj = PrivateDemo()
